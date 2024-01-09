@@ -5,12 +5,14 @@
 </head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css" />
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 .w3-sidebar a {font-family: "Roboto", sans-serif}
 body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
+<script src="https://cdn.tailwindcss.com"></script>
 </style>
 <body class="w3-content" style="max-width:1200px">
 
@@ -21,20 +23,18 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
     <h1 class="w3-wide"><b>Teki101</b></h1>
   </div>
   <div class="w3-padding-64 w3-large w3-text-grey" style="font-weight:bold">
-    <a href="#" class="w3-bar-item w3-button">Mac</a>
-    <a href="#" class="w3-bar-item w3-button">iPhone</a>
+    <a href="#" class="w3-bar-item w3-button">Laptops</a>
+    <a href="#" class="w3-bar-item w3-button">Mobile Phones</a>
     <a onclick="myAccFunc()" href="javascript:void(0)" class="w3-button w3-block w3-white w3-left-align" id="myBtn">
       Accessories <i class="fa fa-caret-down"></i>
     </a>
     <div id="demoAcc" class="w3-bar-block w3-hide w3-padding-large w3-medium">
       <a href="#" class="w3-bar-item w3-button w3-light-grey"><i class="fa fa-caret-right w3-margin-right"></i>Chargers & Cables</a>
-      <a href="#" class="w3-bar-item w3-button">iPhone Accessories</a>
-      <a href="#" class="w3-bar-item w3-button">Watch Accessories</a>
-      <a href="#" class="w3-bar-item w3-button">Mac Accessories</a>
-      <a href="#" class="w3-bar-item w3-button">AirTag</a>
+      <a href="#" class="w3-bar-item w3-button">Mobile Phone Accessories</a>
+      <a href="#" class="w3-bar-item w3-button">Smart Watch Accessories</a>
+      <a href="#" class="w3-bar-item w3-button">Laptop Accessories</a>
     </div>
-    <a href="#" class="w3-bar-item w3-button">iPad</a>
-    <a href="#" class="w3-bar-item w3-button">Watch</a>
+    <a href="#" class="w3-bar-item w3-button">Tablets</a>
     <a href="#" class="w3-bar-item w3-button">Storage</a>
     <a href="#" class="w3-bar-item w3-button">Services</a>
   </div>
@@ -60,7 +60,7 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
 
   <!-- Top header -->
   <header class="w3-container w3-xlarge">
-    <p class="w3-left">Your online store for Apple products & accessories</p>
+    <p class="w3-left">Gear Up for the Future You!  Gadgets that level up your life.</p>
     <p class="w3-right">
       <i class="fa fa-shopping-cart w3-margin-right"></i>
       <i class="fa fa-search"></i>
@@ -69,11 +69,10 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
 
   <!-- Image header -->
   <div class="w3-display-container w3-container">
-    <img src="images/iphone13_cover.jpeg" alt="Jeans" style="width:100%">
+    <img src="images/pexels-annushka-ahuja-8055436_1.jpg" alt="jeans" style="width:100%">
     <div class="w3-display-topleft w3-text-white" style="padding:24px 48px">
-      <h1 class="w3-jumbo w3-hide-small">The best camera is here</h1>
-      <h1 class="w3-hide-large w3-hide-medium">The best camera is here</h1>
-      <h1 class="w3-hide-small">IPHONE 13</h1>
+      <h1 class="w3-jumbo w3-hide-small">The best tech on planet Earth</h1>
+      <h1 class="w3-hide-large w3-hide-medium">The best tech on planet Earth</h1>
       <p><a href="#jeans" class="w3-button w3-white w3-padding-large w3-large">SHOP NOW</a></p>
     </div>
   </div>
@@ -83,18 +82,6 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
   </div>
 
   <!-- Product grid -->
-  <div class="w3-row w3-grayscale">
-    <div class="w3-col l3 s6">
-      <div class="w3-container">
-        <img src="images/abstract-case.jpg" style="width:100%">
-        <p>Abstract iPhone case<br><b>24,99€</b></p>
-      </div>
-      <div class="w3-container">
-        <img src="images/airpods.jpeg" style="width:100%">
-        <p>AirPods<br><b>159,99€</b></p>
-      </div>
-    </div>
-
     <div class="w3-col l3 s6">
       <div class="w3-container">
         <div class="w3-display-container">
@@ -106,45 +93,20 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
         </div>
         <p>Pride Watch strap<br><b>19.99€</b></p>
       </div>
-      <div class="w3-container">
-        <img src="images/blue-strap.jpeg" style="width:100%">
-        <p>Blue Watch strap<br><b>20.50€</b></p>
-      </div>
-    </div>
-
-    <div class="w3-col l3 s6">
-      <div class="w3-container">
-        <img src="images/cartoon-case.jpg" style="width:100%">
-        <p>Mushrooms iPhone case<br><b>20.50€</b></p>
-      </div>
-      <div class="w3-container">
-        <div class="w3-display-container">
-          <img src="images/hermes-case.jpeg" style="width:100%">
-          <span class="w3-tag w3-display-topleft">Sale</span>
-          <div class="w3-display-middle w3-display-hover">
-            <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
-          </div>
         </div>
-        <p>Hermes iPhone case<br><b class="w3-text-red">349.99€</b></p>
+        <p>Hermes case<br><b class="w3-text-red">349.99€</b></p>
       </div>
     </div>
 
     <div class="w3-col l3 s6">
       <div class="w3-container">
         <img src="images/leopard-case.jpg" style="width:100%">
-        <p>Leopard iPhone case<br><b>14.99€</b></p>
-      </div>
-      <div class="w3-container">
-        <img src="images/magnetic-case.jpeg" style="width:100%">
-        <p>Mag-Safe iPhone case<br><b>24.99€</b></p>
-      </div>
-    </div>
-  </div>
+        <p>Leopard case<br><b>14.99€</b></p>
 
   <!-- Subscribe section -->
   <div class="w3-container w3-black w3-padding-32">
     <h1>Subscribe</h1>
-    <p>To get special offers and VIP treatment:</p>
+    <p>To get special offers:</p>
     <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail" style="width:100%"></p>
     <button type="button" class="w3-button w3-red w3-margin-bottom">Subscribe</button>
   </div>
@@ -165,9 +127,8 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
       </div>
 
       <div class="w3-col s4">
-        <h4>About</h4>
         <p><a href="#">About us</a></p>
-        <p><a href="#">We're hiring</a></p>
+        <p><a href="#"> </a></p>
         <p><a href="#">Support</a></p>
         <p><a href="#">Find store</a></p>
         <p><a href="#">Shipment</a></p>
@@ -179,11 +140,10 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
 
       <div class="w3-col s4 w3-justify">
         <h4>Store</h4>
-        <p><i class="fa fa-fw fa-map-marker"></i> Company Name</p>
-        <p><a href="tel:+34626553368" class="fa fa-fw fa-phone"></a> 626553368</p>
-        <p><i class="fa fa-fw fa-envelope"></i> ex@mail.com</p>
-        <h4>We accept</h4>
-        <p><i class="fa fa-fw fa-cc-amex"></i> Amex</p>
+        <p><i class="fa fa-fw fa-map-marker"></i> Teki101</p>
+        <p><a href="tel:+1234567890" class="fa fa-fw fa-phone"></a> 626553368</p>
+        <p><i class="fa fa-fw fa-envelope"></i> info@teki101.tk</p>
+        <h4>We accept all modes of payment</h4>
         <p><i class="fa fa-fw fa-credit-card"></i> Credit Card</p>
         <br>
         <i class="fa fa-facebook-official w3-hover-opacity w3-large"></i>
@@ -223,16 +183,6 @@ function myAccFunc() {
   } else {
     x.className = x.className.replace(" w3-show", "");
   }
-}
-
-// Click on the "Jeans" link on page load to open the accordion for demo purposes
-document.getElementById("myBtn").click();
-
-
-// Open and close sidebar
-function w3_open() {
-  document.getElementById("mySidebar").style.display = "block";
-  document.getElementById("myOverlay").style.display = "block";
 }
 
 function w3_close() {
